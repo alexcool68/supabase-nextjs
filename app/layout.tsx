@@ -4,6 +4,7 @@ import './globals.css';
 
 import ThemeProvider from '@/components/theme-provider';
 import Header from '@/components/header';
+
 import Footer from '@/components/footer';
 
 const defaultUrl = process.env.WEBSITE_URL ? `https://${process.env.WEBSITE_URL}` : 'http://localhost:3000';
