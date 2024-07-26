@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body>
                 <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
                     <main className="min-h-screen flex flex-col items-center">
-                        <Header />
+                        <Header defaultUrl={defaultUrl} />
                         <div className="flex-1 w-full flex flex-col gap-10 items-center mt-10">
                             <div className="flex-1 flex flex-col gap-20 max-w-4xl px-3">{children}</div>
                         </div>
